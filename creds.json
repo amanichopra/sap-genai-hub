@@ -1,0 +1,11 @@
+{
+    "clientid": "sb-0e54a685-6bd6-44f6-ad8b-5a205ca05a6e!b211083|aicore!b164",
+    "clientsecret": "70ef7b9b-268d-490e-b648-24b63f50823b$lWffFZDHsg0vcetAfp-3Wx4DshPb3izq6AaPa5icjMY=",
+    "url": "https://3spqfh82v4x732pd.authentication.us10.hana.ondemand.com",
+    "identityzone": "3spqfh82v4x732pd",
+    "identityzoneid": "6b3dbd8c-bdb9-4b5a-a1c0-32cb8d1ba959",
+    "appname": "0e54a685-6bd6-44f6-ad8b-5a205ca05a6e!b211083|aicore!b164",
+    "serviceurls": {
+        "AI_API_URL": "https://api.ai.prod.us-east-1.aws.ml.hana.ondemand.com"
+    }
+}
