@@ -5,6 +5,7 @@
 1. Install dependency packages via `pip install dash dash-bootstrap-components`. 
 2. Fill in the `get_summary_using_gen_ai_hub()` function in `app.py`. Your code should look something like below.
 3. Run the app via `python app.py`.
+4. You'll see a popup in the bottom right corner stating `A service is listening to port 8050.`. Click `Open in a New Tab`.
 
 ```
 config = OrchestrationConfig(
