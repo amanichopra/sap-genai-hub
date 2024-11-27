@@ -22,3 +22,7 @@ The exercises are comprised of notebooks demonstrating how to use the SAP genera
 - [Exercise 5 - Building an App Using the Orchestration Service](./ex5.md)
 
 Start the exercises [here](./ex1.ipynb).
+
+### Postman Collections to Use AI Core via API
+
+You can also access Generative AI Hub via API using the Postman collection [here](aicore_postman_collection.json). 
