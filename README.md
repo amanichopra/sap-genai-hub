@@ -19,7 +19,7 @@ This track introduces you to the orchestration capabilities of Generative AI Hub
 
 The exercises are comprised of notebooks demonstrating how to use the SAP generative AI hub SDK to interact with the Orchestration Service, enabling you to build AI-driven workflows by combining multiple modules such as templating, large language models (LLM), and content filtering.
 
-To complete the first exercise, you must click `ex1.ipynb` on the file explorer. On the top right of this notebook, slick the button titled `Select Kernel` and select `.venv` from the dropdown as shown [here](./assets/select_kernel.png). At this point, you are ready to run the code cells in the notebook. Make sure to run each cell sequentially. You can run a cell by "play" button on the left of the cell like shown [here](./assets/execute_cell.png). Once you finish running all the cells, you can move on to the remaining exercises as shown below.
+To complete the first exercise, you must click `ex1.ipynb` on the file explorer. On the top right of this notebook, slick the button titled `Select Kernel` and select `.venv` from the dropdown as shown [here](./assets/select_kernel.png). At this point, you are ready to run the code cells in the notebook. Make sure to run each cell sequentially. You can run a cell by "play" button on the left of the cell like shown [here](./assets/execute_cell.png). You can learn more about using Jupyter notebooks [here](https://www.dataquest.io/blog/jupyter-notebook-tutorial/). Once you finish running all the cells, you can move on to the remaining exercises as shown below. 
 
 - [Exercise 1 - Using LLMs and Embedding Models Directly](./ex1.ipynb)
 - [Exercise 2 - Orchestration Templating](./ex2.ipynb)
