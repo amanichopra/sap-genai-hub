@@ -1,5 +1,7 @@
 # Building an Dash Application Consuming the Generative AI Hub
 
+Now that you've learned about the capabilities of Orchestration, let's build a Python app that consumes the service.
+
 ## Steps
 
 1. Install dependency packages via `pip install dash dash-bootstrap-components`. 
@@ -19,7 +21,7 @@ config = OrchestrationConfig(
 )
 
 orchestration_service = OrchestrationService(
-api_url=os.environ["AICORE_ORCHESTRATION_DEPLOYMENT_URL"],
+deployment_id=os.environ["AICORE_ORCH_DEPLOYMENT_ID"],
 config=config,
 ) 
 

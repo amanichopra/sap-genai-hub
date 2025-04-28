@@ -6,20 +6,12 @@ from gen_ai_hub.orchestration.models.template import Template, TemplateValue
 from gen_ai_hub.orchestration.models.llm import LLM
 import os
 import json
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Initialize the Dash app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
-# define AI Core environment variables
-with open('creds.json') as f:
-    creds = json.load(f)
-    
-os.environ["AICORE_AUTH_URL"] = f"{creds['url']}/oauth/token"
-os.environ["AICORE_BASE_URL"] = creds['serviceurls']['AI_API_URL']
-os.environ["AICORE_CLIENT_ID"] = creds['clientid']
-os.environ["AICORE_CLIENT_SECRET"] = creds['clientsecret']
-os.environ["AICORE_ORCHESTRATION_DEPLOYMENT_URL"] = "https://api.ai.prod.us-east-1.aws.ml.hana.ondemand.com/v2/inference/deployments/df00b043b0f6110b"
-os.environ["AICORE_RESOURCE_GROUP"] = "default"
 
 # function to get summary using orchestration service
 def get_summary_using_gen_ai_hub(text, llm):
