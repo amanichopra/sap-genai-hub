@@ -5,9 +5,10 @@ Now that you've learned about the capabilities of Orchestration, let's build a P
 ## Steps
 
 1. Install dependency packages via `pip install dash dash-bootstrap-components`. 
-2. Fill in the `get_summary_using_gen_ai_hub()` function in `app.py`. Your code should look something like below.
-3. Run the app via `python app.py`.
-4. You'll see a popup in the bottom right corner stating `A service is listening to port 8050.`. Click `Open in a New Tab`.
+2. Ensure there is a file called `env_vars.env` in the root project folder containing the credentials to access AI Core. If you completed the other exercises, you must have already performed this step.
+3. Fill in the `get_summary_using_gen_ai_hub()` function in `app.py`. Your code should look something like below.
+4. Run the app via `python app.py`.
+5. You'll see a popup in the bottom right corner stating `A service is listening to port 8050.`. Click `Open in a New Tab`.
 
 ```
 config = OrchestrationConfig(
